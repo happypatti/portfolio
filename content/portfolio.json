@@ -1,0 +1,203 @@
+{
+  "site": {
+    "name": "Ali Shalash",
+    "title": "Hardware · Software · Vacuum Systems",
+    "tagline": "Building thermal vacuum test infrastructure, embedded prototypes, and real-time control software for aerospace hardware validation.",
+    "location": "Engineering Lab",
+    "email": "aashalash40@gmail.com",
+    "links": {
+      "github": "https://github.com/happypatti",
+      "linkedin": "",
+      "resume": ""
+    }
+  },
+  "display": {
+    "layout": "bento",
+    "theme": "mission-control",
+    "heroMedia": "/media/tvac/vac-and-cheese-chamber.jpg",
+    "showStats": true,
+    "showVideos": true,
+    "animationIntensity": "high"
+  },
+  "stats": [
+    { "label": "TVAC Systems", "value": "3+" },
+    { "label": "DAQ Channels", "value": "16+" },
+    { "label": "Pressure Range", "value": "10⁻⁷ Torr" },
+    { "label": "Temp Range", "value": "−75 → 150°C" }
+  ],
+  "categories": [
+    {
+      "id": "tvac",
+      "label": "TVAC Chambers",
+      "description": "Thermal vacuum test chambers — vacuum pumps, TCU control, environmental qualification",
+      "color": "#00e5ff"
+    },
+    {
+      "id": "hardware",
+      "label": "Hardware Prototypes",
+      "description": "Embedded systems, custom PCBs, FPD-Link serializers, Arduino integration",
+      "color": "#ff6b2c"
+    },
+    {
+      "id": "software",
+      "label": "Control Software",
+      "description": "Real-time dashboards, DAQ, temperature profiling, data logging",
+      "color": "#7c5cff"
+    }
+  ],
+  "projects": [
+    {
+      "id": "vac-and-cheese",
+      "category": "tvac",
+      "title": "Vac & Cheese — TVAC Chamber",
+      "subtitle": "Custom thermal vacuum test system",
+      "description": "Full-stack TVAC chamber with integrated power distribution, vacuum control, and DAQ. Side-panel access for Mean Well supplies, wiring harnesses, and control electronics.",
+      "media": {
+        "type": "image",
+        "src": "/media/tvac/vac-and-cheese-chamber.jpg",
+        "alt": "Vac & Cheese TVAC chamber with open control panel"
+      },
+      "tags": ["Vacuum Systems", "Power Electronics", "DAQ"],
+      "featured": true,
+      "size": "large"
+    },
+    {
+      "id": "ir-camera-test",
+      "category": "tvac",
+      "title": "IR Camera Thermal Test",
+      "subtitle": "Live chamber monitoring with infrared imaging",
+      "description": "Thermal vacuum test in progress — IR camera feed overlaid on chamber control UI showing real-time temperature mapping during qualification runs.",
+      "media": {
+        "type": "image",
+        "src": "/media/tvac/ir-camera-test-monitor.jpg",
+        "alt": "Monitor showing IR camera view of thermal vacuum test"
+      },
+      "tags": ["Thermal Imaging", "Qualification", "TVAC"],
+      "featured": true,
+      "size": "medium"
+    },
+    {
+      "id": "tvac-dashboard",
+      "category": "software",
+      "title": "Snowflake's Chamber Controller",
+      "subtitle": "TVAC-03 Dashboard",
+      "description": "Custom desktop control application with real-time pressure/temperature graphing, TCU setpoint control, temperature profile automation, DAQ channel management, and emergency stop.",
+      "media": {
+        "type": "image",
+        "src": "/media/software/tvac-03-dashboard.jpg",
+        "alt": "TVAC-03 Dashboard showing pressure and temperature graphs"
+      },
+      "video": "/media/videos/tvac-dashboard-demo.mov",
+      "tags": ["Python/Qt", "Real-time Graphing", "DAQ", "TCU Control"],
+      "featured": true,
+      "size": "large"
+    },
+    {
+      "id": "live-monitoring",
+      "category": "software",
+      "title": "Live Test Monitoring",
+      "subtitle": "Multi-channel sensor dashboard",
+      "description": "Real-time data acquisition dashboard running during hardware qualification — live graphing, multi-channel readouts, and test-in-progress workflow integration.",
+      "media": {
+        "type": "image",
+        "src": "/media/software/live-test-monitoring.jpg",
+        "alt": "Live monitoring dashboard during test in progress"
+      },
+      "tags": ["Data Acquisition", "Live Graphing", "Test Automation"],
+      "featured": false,
+      "size": "medium"
+    },
+    {
+      "id": "fpdlink-prototype",
+      "category": "hardware",
+      "title": "FPD-Link III Serializer Board",
+      "subtitle": "TI DS90UB947 evaluation + custom harness",
+      "description": "High-speed video/data link prototype using Texas Instruments DS90UB947-Q1 serializer. Custom wiring harness with labeled signal routing, power integration, and industrial connector interface.",
+      "media": {
+        "type": "image",
+        "src": "/media/hardware/ti-fpdlink-prototype.jpg",
+        "alt": "TI FPD-Link serializer board with custom wiring"
+      },
+      "tags": ["FPD-Link III", "TI DS90UB947", "Signal Routing"],
+      "featured": true,
+      "size": "medium"
+    },
+    {
+      "id": "arduino-interface",
+      "category": "hardware",
+      "title": "Arduino Due Interface Board",
+      "subtitle": "Custom U3SOL serial interface PCB",
+      "description": "Stacked Arduino Due + custom FCC-approved interface board for RS-232/serial communication. Dense jumper wiring to bulkhead connectors for chamber feedthrough integration.",
+      "media": {
+        "type": "image",
+        "src": "/media/hardware/arduino-due-interface.jpg",
+        "alt": "Arduino Due with custom interface board and wiring"
+      },
+      "tags": ["Arduino Due", "Custom PCB", "RS-232", "Embedded"],
+      "featured": false,
+      "size": "medium"
+    }
+  ],
+  "videos": [
+    {
+      "id": "chamber-operation",
+      "title": "Chamber Operation",
+      "description": "TVAC chamber in operation during test sequence",
+      "src": "/media/videos/chamber-operation.mov",
+      "category": "tvac",
+      "featured": true
+    },
+    {
+      "id": "ir-camera-demo",
+      "title": "IR Camera Demo",
+      "description": "Infrared thermal imaging during vacuum test",
+      "src": "/media/videos/ir-camera-demo.mov",
+      "category": "tvac",
+      "featured": false
+    },
+    {
+      "id": "dashboard-demo",
+      "title": "Dashboard Walkthrough",
+      "description": "TVAC-03 control software in action",
+      "src": "/media/videos/tvac-dashboard-demo.mov",
+      "category": "software",
+      "featured": true
+    },
+    {
+      "id": "hardware-demo-1",
+      "title": "Hardware Demo",
+      "description": "Prototype hardware testing footage",
+      "src": "/media/videos/1620F469-3BF8-4344-8270-961AD307133F.MP4",
+      "category": "hardware",
+      "featured": false
+    },
+    {
+      "id": "hardware-demo-2",
+      "title": "System Demo",
+      "description": "Integrated system demonstration",
+      "src": "/media/videos/13FBF57D-2761-4621-A601-AA297F99B4F4.MP4",
+      "category": "hardware",
+      "featured": false
+    },
+    {
+      "id": "test-sequence",
+      "title": "Test Sequence",
+      "description": "Automated test sequence recording",
+      "src": "/media/videos/E356D97F-E63F-434B-8702-E0FCA4EA622C.MP4",
+      "category": "tvac",
+      "featured": false
+    }
+  ],
+  "skills": [
+    "Thermal Vacuum Testing",
+    "Vacuum Systems",
+    "DAQ & Instrumentation",
+    "Embedded Systems",
+    "Real-time Software",
+    "PCB Integration",
+    "Temperature Profiling",
+    "Python",
+    "C/C++",
+    "Hardware-in-the-Loop"
+  ]
+}
